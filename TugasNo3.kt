@@ -19,7 +19,6 @@ class barang (val _nama: String, var _harga: Int = 5000, var _jumlah: Int = 2, v
 
 fun main(args: Array<String>) {
     val peci = barang("Peci")
-    val total = barang("total")
     peci.tampil()
-    total.hitungTotal()
+    peci.hitungTotal()
 }
